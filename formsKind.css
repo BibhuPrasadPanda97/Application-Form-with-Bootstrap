@@ -1,7 +1,6 @@
 body{
     background-image: url("background-image3.jpg");
-    background-size: 100%;
-    /* background-position: 0 0 0 0; */
+    background-size: 100% 100%;
 }
 
 
@@ -9,40 +8,47 @@ header{
     text-align-last: center;
     /* border: 2px solid blueviolet; */
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #fff;
 }
 
 
-form{
+.main{
     background-size: 30px;
     border-radius: 13px;
     box-shadow: 2px 12px 10px 2px;
-    /* border: 5px solid yellow; */
+    /* border: 2px solid rgba(0, 0, 0, 0); */
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    padding: 25px 50px 75px 50px;
-    margin: 5% 20% 0 30%;
+    padding: 50px 50px 75px 30px;
+    margin: 5% 20% 10% 25%;
 }
 
-input[type="text"] {
+.main h3{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name, #role, #email, #date, #bonus{
     width: 60%;
     padding: 5px 5px 2px 5px;
     margin: 5px 0 0 30px;
     border-radius: 10px;
 }
 
-#role{
-    margin: 0 0 0 37px;
+form label{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-
-.input_names{
-    margin: 0%;
-}
-
-#Email, #Date, #Bonus {
-    width: 60%;
-    padding: 5px 5px 2px 5px;
-    margin: 5px 0 0 30px;
+#button {
     border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

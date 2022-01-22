@@ -11,49 +11,58 @@
 
 <body>
     <header>
-        <h2>Student Application Form</h2>
+        <h1>Application Form</h1>
     </header>
-    
-    <form>
-        <div class="input_names">
-            Name: <input type="text" name="myName" id="name">
-        </div>
-        <br>
-        <div>
-            Role: <input type="text" name="myRole" id="role">
-        </div>
-        <br>
-        <div>
-            Email: <input type="email" name="myEmail" id="Email">
-        </div>
-        <br>
-        <div>
-            Date: <input type="date" name="myDate" id="Date">
-        </div>
-        <br>
-        <div>
-            Bonus: <input type="number" name="myNumber" id="Bonus">
-        </div>
-        <br>
-        <div>
-            Are you Eligible:   <input type="checkbox" value="myEligibility" checked>
-        </div>
-        <br>
-        <div>
-            Gender: Male    <input type="radio" name="myGender" id="">  Female <input type="radio" name="myGender" id=""> Other <input type="radio" class="myGender">
-        </div>
-        <br>
-        <div>
-            <!-- Write about yourself -->
-            Write about yourself: <br> <br> <textarea name="myText" id="" cols="50" rows="5"></textarea>
-        </div>
-        <br>
-        <div>
-            <input type="submit" value="Submit Now">
-            <input type="reset" value="Reset Now">
-        </div>
+    <div class="main">
+        <form>
+            <div><h3>Fill the Form here</h3></div>
 
-    </form>
+            <label for="name">Name: </label> <input type="text" name="myName" id="name" placeholder="Enter your Name">
+            <br>
+            <br>
+
+            <label for="role">Role: </label> <input type="text" name="myRole" id="role" placeholder="Enter your role">
+            <br>
+            <br>
+
+            <label for="email">Email: </label> <input type="email" name="myEmail" id="email"
+                placeholder="Enter you e-mail">
+            <br>
+            <br>
+
+            <label for="date">Date: </label> <input type="date" name="myDate" id="date">
+            <br>
+            <br>
+
+            <label for="bonus">Bonus: </label> <input type="number" name="myNumber" id="bonus" placeholder="Enter the value">
+            <br>
+            <br>
+
+            <label for="Eligibility">Are you Eligible: </label> <input type="checkbox" value="myEligibility" id="Eligibility">
+            <br>
+            <br>
+
+            <label for="">Gender: </label>
+            <br>
+            <label for="male">Male </label> <input type="radio" name="myGender" id="male">
+            &nbsp;&nbsp;&nbsp;
+            <label for="female">Female </label> <input type="radio" name="myGender" id="female">
+            <!-- &nbsp;&nbsp;&nbsp;
+            <label for="others">Others </label> <input type="radio" class="myGender" , id="others"> -->
+            <br>
+            <br>
+
+            <!-- Write about yourself -->
+            <label for="write_about">Write about yourself: </label> <br> <br> <textarea name="myText" id="" cols="50"
+                rows="5" id="write_about" placeholder="Enter about yourself!"></textarea>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit Now" id="button">
+            <input type="reset" value="Reset Now" id="button">
+
+        </form>
+    </div>
 </body>
 
 </html>
